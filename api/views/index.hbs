@@ -1,0 +1,54 @@
+{{> header}}
+<main class="pb-5">
+  <div class="card bg-dark text-center">
+    <div class="card-body">
+      <form id="form" action="/login" method="POST">
+        <h1>&#128372;&#128372;&#128372;</h1>
+        <h5 class="card-title text-center">Ingrese sus credenciales</h5>
+        <div class="input-group mb-3">
+          <label
+            for="email"
+            class="input-group-text bg-primary text-light"
+            id="basic-addon1"
+            >Email:</label
+          >
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="email"
+            aria-label="email"
+            aria-describedby="basic-addon1"
+            required
+          />
+        </div>
+        <div class="input-group mb-3">
+          <label
+            for="password"
+            class="input-group-text bg-primary text-light"
+            id="basic-addon2"
+            >Password:</label
+          >
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="form-control"
+            placeholder="password"
+            aria-label="password"
+            aria-describedby="basic-addon2"
+            required
+          />
+        </div>
+        <button type="submit" class="btn bg-success text-light my-3">
+          Ingresar &#128373;
+        </button>
+      </form>
+    </div>
+  </div>
+</main>
+
+{{>footer}}
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="/js/index.js"></script>

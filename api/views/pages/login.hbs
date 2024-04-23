@@ -1,0 +1,18 @@
+{{>header}}
+<main>
+  <h2 class="my-5 text-center">Sesión iniciada correctamente</h2>
+  <p class="text-center">
+    Tus email con el que inicias sesión es:
+    <span class="fw-bold">{{{email}}}</span>
+  </p>
+  <p class="text-center">
+    Puedes acceder a la siguiente ruta privada:
+    <a href="/private?token={{{token}}}">LINK A RUTA PRIVADA</a>
+  </p>
+</main>
+{{>footer}}
+<script>
+  const token = "{{{token}}}";
+  const email = "{{{email}}}";
+  sessionStorage.setItem("user", JSON.stringify({ email, token }));
+</script>

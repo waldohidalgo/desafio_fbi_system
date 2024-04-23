@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #eee;
+}
+header h1 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
+}
+
+.card {
+  background: #000;
+  color: #fff;
+  width: 80%;
+  max-width: 400px;
+  margin-inline: auto;
+}
+
+.img_prohibido {
+  display: block;
+  width: 80%;
+  margin-inline: auto;
+  max-width: 300px;
+}
