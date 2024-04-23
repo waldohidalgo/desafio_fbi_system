@@ -2,11 +2,28 @@
 
 Repositorio con el código solución del Desafío Cuatro: FBI System del módulo 8 **Implementación de API backend Node Express** de la beca **Desarrollo de aplicaciones Full Stack Javascript Trainee** dada por Talento Digital para Chile y dictada por Desafío Latam.
 
+Se ha utilizado express-handlebars que compila archivos handlebars a código html
+
 ## Tabla de Contenidos
+
+- [Solución al Desafío FBI System](#solución-al-desafío-fbi-system)
+  - [Tabla de Contenidos](#tabla-de-contenidos)
+  - [Deploy](#deploy)
+  - [Requisitos](#requisitos)
+  - [Screenshots](#screenshots)
+    - [1.Home](#1home)
+    - [2. Página Email y Password Incorrectos](#2-página-email-y-password-incorrectos)
+    - [3. Sesión establecida](#3-sesión-establecida)
+    - [4. Página Privada](#4-página-privada)
+    - [5. Página Acceso Prohibido](#5-página-acceso-prohibido)
+  - [Soluciones](#soluciones)
+    - [1. Crear una ruta que autentique a un agente basado en sus credenciales y genere un token con sus datos. (3 Puntos)](#1-crear-una-ruta-que-autentique-a-un-agente-basado-en-sus-credenciales-y-genere-un-token-con-sus-datos-3-puntos)
+    - [2. Al autenticar un agente, devolver un HTML que:](#2-al-autenticar-un-agente-devolver-un-html-que)
+    - [3. Crear una ruta restringida que devuelva un mensaje de Bienvenida con el correo del agente autorizado, en caso contrario devolver un estado HTTP que indique que el usuario no está autorizado y un mensaje que menciona la descripción del error. (3 Puntos)](#3-crear-una-ruta-restringida-que-devuelva-un-mensaje-de-bienvenida-con-el-correo-del-agente-autorizado-en-caso-contrario-devolver-un-estado-http-que-indique-que-el-usuario-no-está-autorizado-y-un-mensaje-que-menciona-la-descripción-del-error-3-puntos)
 
 ## Deploy
 
-El proyecto es 100% funcional y ha sido desplegado en vercel en el siguiente link
+El proyecto es 100% funcional y ha sido desplegado en vercel en el siguiente [link](https://desafio-fbi-system.vercel.app/)
 
 ## Requisitos
 
